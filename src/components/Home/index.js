@@ -1,17 +1,17 @@
 // @flow
 import { connect } from "react-redux";
 import { Home } from "./presenter";
-import { getOwnerName } from "../../actions";
+import { getLoginInfo } from "../../actions";
 
-const mapStateToProps = ({ ownerNameReducer }) => {
+const mapStateToProps = (reducer) => {
   return {
-    ownerName: ownerNameReducer.ownerName
+    isLogged: reducer.loginReducer.isLogged
   };
 };
 
 const mapDispatchToProps = dispatch => {
   return {
-    getOwnerName: () => dispatch(getOwnerName())
+    getLoginInfo: () => dispatch(getLoginInfo())
   };
 };
 

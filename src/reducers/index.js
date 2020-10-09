@@ -1,9 +1,9 @@
 import { combineReducers } from "redux";
 
-import ownerNameReducer from "./owner";
+import loginReducer from "./login";
 
 const appReducer = combineReducers({
-  ownerNameReducer
+  loginReducer
 });
 
 export default appReducer;

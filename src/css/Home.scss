@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+.main {
+  // background-image: url(https://cdna.artstation.com/p/assets/images/images/027/608/392/large/karn-rerkkriangkrai-practicing.jpg?1592011644);
+  background: #eb5757; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000, #eb5757); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #000000,
+    #eb5757
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html,
+body {
+  margin: 0;
+}
+.socials {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    height: 30px;
+    margin: 0rem 0.4rem;
+  }
+}
+
+.form-structor {
+  background-image: url(https://previews.123rf.com/images/goodstudio/goodstudio1703/goodstudio170300328/74640579-disegnato-barbiere-senza-soluzione-di-continuit%C3%A0-con-gli-accessori-pettine-rasoio-pennello-da-barba-fo.jpg);
+  /* 
+    https://t1.pixers.pics/img-1fb6f67c/bilder-auf-pvc-friseur-nahtlose-hintergrund.jpg?H4sIAAAAAAAAA3VOW27DMAy7jgOkkZLY8eMA_e0RAtdROq95GHa2FTv9FAz7HARCIgGKhI-t-Jkg0HZQhjVO00Iwx4VZcZlK_CaBtRq6yrG6CESs3P5JOeQ9iYvq6hMDmhOV-_JsXH1-irfjSMUBlL5J8cXfeIUCYS3QYWuhbUFNk1JS99Td7_OYFnqWeFH4Utik7VHjOdVfCYlYyzP8yHEV3GbnnEO8p0cF_2T93sAuuN7AajAWLIK0pzReb1Yba1Ha0Qdj50kTM99qJgGN0oOXHZlZhb7hlB9sL6R_KgEAAA==
+  */
+  background-size: cover;
+  border-radius: 15px;
+  height: 400px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+
+  //   &::after {
+  // 			content: '';
+  // 			position: absolute;
+  // 			left: 0px;
+  // 			top: 0px;
+
+  // 			background-color: #fff;
+  // 			width: 100%;
+  // 			height: 400px;
+  // 			z-index: -1;
+  // 			-webkit-transition: all .3s ease;
+  // 		}
+  .login {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease;
+
+    .login-exit-button {
+      top: -40px;
+      position: absolute;
+      z-index: 5;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: white;
+      padding: 1rem;
+      border-radius: 100rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -20px;
+      -webkit-transform: translate(-50%, 0);
+      background-color: #fff;
+      width: 200%;
+      height: 250px;
+      border-radius: 50%;
+      z-index: 4;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    .center {
+      position: absolute;
+      top: calc(50% - 10%);
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      width: 65%;
+      z-index: 5;
+      -webkit-transition: all 0.3s ease;
+
+      .form-title {
+        color: #000;
+        font-size: 1.7em;
+        text-align: center;
+
+        span {
+          color: rgba(0, 0, 0, 0.4);
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transition: all 0.3s ease;
+        }
+      }
+
+      .form-holder {
+        border-radius: 15px;
+        background-color: #fff;
+        border: 1px solid #eee;
+        overflow: hidden;
+        margin-top: 50px;
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.3s ease;
+
+        .input {
+          border: 0;
+          outline: none;
+          box-shadow: none;
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          padding: 8px 15px;
+          border-bottom: 1px solid #eee;
+          width: 100%;
+          font-size: 12px;
+
+          &:last-child {
+            border-bottom: 0;
+          }
+          &::-webkit-input-placeholder {
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+
+      .submit-btn {
+        background-color: #6b92a4;
+        color: rgba(256, 256, 256, 0.7);
+        border: 0;
+        border-radius: 15px;
+        display: block;
+        margin: 15px auto;
+        padding: 15px 45px;
+        font-family: inherit;
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.3s ease;
+
+        &:hover {
+          transition: all 0.3s ease;
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+
+    &.slide-up {
+      top: 100%;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .center {
+      top: 10%;
+      -webkit-transform: translate(-50%, 0%);
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-holder,
+    &.slide-up .submit-btn {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-title {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-title span {
+      margin-right: 5px;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all 0.3s ease;
+    }
+  }
+  .signup {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 5;
+    -webkit-transition: all 0.3s ease;
+
+    .signup-exit-button {
+      top: -40px;
+      position: absolute;
+      z-index: 5;
+      left: 50%;
+      transform: translate(-50%, 0);
+      background: white;
+      padding: 1rem;
+      border-radius: 100rem;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      top: -20px;
+      -webkit-transform: translate(-50%, 0);
+      background-color: #fff;
+      width: 200%;
+      height: 250px;
+      border-radius: 50%;
+      z-index: 4;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    .center {
+      position: absolute;
+      top: calc(50% - 10%);
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      width: 65%;
+      z-index: 5;
+      -webkit-transition: all 0.3s ease;
+
+      .form-title {
+        color: #000;
+        font-size: 1.7em;
+        text-align: center;
+
+        span {
+          color: rgba(0, 0, 0, 0.4);
+          opacity: 0;
+          visibility: hidden;
+          -webkit-transition: all 0.3s ease;
+        }
+      }
+
+      .form-holder {
+        border-radius: 15px;
+        background-color: #fff;
+        border: 1px solid #eee;
+        overflow: hidden;
+        margin-top: 50px;
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.3s ease;
+
+        .input {
+          border: 0;
+          outline: none;
+          box-shadow: none;
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          padding: 8px 15px;
+          border-bottom: 1px solid #eee;
+          width: 100%;
+          font-size: 12px;
+
+          &:last-child {
+            border-bottom: 0;
+          }
+          &::-webkit-input-placeholder {
+            color: rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+
+      .submit-btn {
+        font-family: inherit;
+        background-color: #6b92a4;
+        color: rgba(256, 256, 256, 0.7);
+        border: 0;
+        border-radius: 15px;
+        display: block;
+        margin: 5px auto;
+        padding: 15px 45px;
+        width: 100%;
+        font-size: 13px;
+        font-weight: bold;
+        cursor: pointer;
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: all 0.3s ease;
+
+        &:hover {
+          transition: all 0.3s ease;
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+      }
+    }
+
+    &.slide-up {
+      top: 100%;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .center {
+      top: 10%;
+      -webkit-transform: translate(-50%, 0%);
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-holder,
+    &.slide-up .submit-btn {
+      opacity: 0;
+      visibility: hidden;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-title {
+      font-size: 1em;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      -webkit-transition: all 0.3s ease;
+    }
+
+    &.slide-up .form-title span {
+      margin-right: 5px;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all 0.3s ease;
+    }
+  }
+}
+
+.button {
+  background: #76b3fa;
+  border-radius: 100px;
+  padding: 20px 60px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.45em;
+  margin: 0 15px;
+}
+
+/* Hover state animation applied here */
+.button:hover {
+  -webkit-animation: hover 1200ms linear 2 alternate;
+  animation: hover 1200ms linear 2 alternate;
+}
+
+/* Active state animation applied here */
+.button:active {
+  -webkit-animation: active 1200ms ease 1 alternate;
+  animation: active 1200ms ease 1 alternate;
+  background: #5f9be0;
+}
+.gray {
+  background: #d2d2d2;
+}
+.gray:active {
+  background: #b9b9b9;
+}
+
+/* Active state animation keyframes below */
+
+@-webkit-keyframes active {
+  0% {
+    transform: scale(1, 1);
+  }
+  90% {
+    transform: scale(0.9, 0.88);
+  }
+  100% {
+    transform: scale(0.92, 0.9);
+  }
+}
+
+.image__logo {
+  width: 8rem;
+  height: auto;
+  border-radius: 100rem;
+  border: 4px solid #eb5757;
+  box-shadow: 0px 0px 1px 2px #fff inset;
+}
+
+.info__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+
+  .image__logo {
+    margin: 2rem 0rem 0.5rem 0rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+
+    .btn-initial {
+      font-family: inherit;
+      background-color: #6b92a4;
+      color: rgba(256, 256, 256, 0.7);
+      border: 0;
+      border-radius: 15px;
+      display: block;
+      margin: 5px auto;
+      padding: 15px 45px;
+      width: 100%;
+      font-size: 13px;
+      font-weight: bold;
+      cursor: pointer;
+      opacity: 1;
+      visibility: visible;
+      -webkit-transition: all 0.3s ease;
+
+      &:hover {
+        transition: all 0.3s ease;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}
+
+.white {
+  color: white;
+}

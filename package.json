@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "bootstrap": "^4.5.2",
+    "classnames": "^2.2.6",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "node-sass": "^4.14.1",
@@ -12,9 +19,12 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.5",
     "react-test-renderer": "^16.5.2",
+    "reactstrap": "^8.6.0",
     "redux": "^4.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -36,8 +46,9 @@
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-prettier": "^3.0.0",
     "flow-bin": "^0.83.0",
+    "gh-pages": "^3.1.0",
     "prettier": "^1.14.3",
     "redux-devtools": "^3.4.1"
   },
-  "homepage": "https://redhotman.github.io/react-redux-pwa-skeleton"
+  "homepage": "https://ConsoliNiccolo.github.io/TestPWAA"
 }
