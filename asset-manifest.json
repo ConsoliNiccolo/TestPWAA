@@ -1,14 +1,16 @@
 {
-  "main.css": "/TestPWAA/static/css/main.61d8bd58.chunk.css",
-  "main.js": "/TestPWAA/static/js/main.650b6f0b.chunk.js",
-  "main.js.map": "/TestPWAA/static/js/main.650b6f0b.chunk.js.map",
-  "static/js/1.d2786638.chunk.js": "/TestPWAA/static/js/1.d2786638.chunk.js",
-  "static/js/1.d2786638.chunk.js.map": "/TestPWAA/static/js/1.d2786638.chunk.js.map",
+  "main.css": "/TestPWAA/static/css/main.4f287191.chunk.css",
+  "main.js": "/TestPWAA/static/js/main.13b45ee8.chunk.js",
+  "main.js.map": "/TestPWAA/static/js/main.13b45ee8.chunk.js.map",
+  "static/css/1.d65954dc.chunk.css": "/TestPWAA/static/css/1.d65954dc.chunk.css",
+  "static/js/1.c43dd4ac.chunk.js": "/TestPWAA/static/js/1.c43dd4ac.chunk.js",
+  "static/js/1.c43dd4ac.chunk.js.map": "/TestPWAA/static/js/1.c43dd4ac.chunk.js.map",
   "runtime~main.js": "/TestPWAA/static/js/runtime~main.10fbc0cf.js",
   "runtime~main.js.map": "/TestPWAA/static/js/runtime~main.10fbc0cf.js.map",
   "static/media/logo.svg": "/TestPWAA/static/media/logo.5d5d9eef.svg",
-  "static/css/main.61d8bd58.chunk.css.map": "/TestPWAA/static/css/main.61d8bd58.chunk.css.map",
+  "static/css/main.4f287191.chunk.css.map": "/TestPWAA/static/css/main.4f287191.chunk.css.map",
+  "static/css/1.d65954dc.chunk.css.map": "/TestPWAA/static/css/1.d65954dc.chunk.css.map",
   "index.html": "/TestPWAA/index.html",
-  "precache-manifest.73eaf33a80aabd1c17c2a3252a9ee726.js": "/TestPWAA/precache-manifest.73eaf33a80aabd1c17c2a3252a9ee726.js",
+  "precache-manifest.61c3bac19d16c207b9eb98f44f36562c.js": "/TestPWAA/precache-manifest.61c3bac19d16c207b9eb98f44f36562c.js",
   "service-worker.js": "/TestPWAA/service-worker.js"
 }
